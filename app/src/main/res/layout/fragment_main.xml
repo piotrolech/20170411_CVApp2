@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_gravity="bottom"
+    tools:context="pl.piotrolech.a20170411_cvapp2.Fragments.MainFragment">
+
+
+    <LinearLayout
+        android:id="@+id/mainFragmentRowHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="80dp" />
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabButton"
+        fab_colorNormal="@color/primary"
+        fab_colorPressed="@color/primary_dark"
+        fab_colorRipple="@color/icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_mail_button_24dp"
+        app:fabSize="normal">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/showButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_show_24dp"
+            app:fabSize="mini"
+            app:fab_label="Show Curriculum Vitae" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/downloadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_download_24dp"
+            app:fabSize="mini"
+            app:fab_label="Download Curriculum Vitae" />
+    </com.github.clans.fab.FloatingActionMenu>
+</FrameLayout>
+
+

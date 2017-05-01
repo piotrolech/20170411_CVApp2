@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/skills"
+        android:icon="@drawable/ic_skills_24dp"
+        android:title="@string/skills" />
+    <item
+        android:id="@+id/experience"
+        android:icon="@drawable/ic_experience_24dp"
+        android:title="@string/experience" />
+    <item
+        android:id="@+id/education"
+        android:icon="@drawable/ic_education_24dp"
+        android:title="@string/education"/>
+    <item
+        android:id="@+id/certificates"
+        android:icon="@drawable/ic_certificates_24dp"
+        android:title="Certificates"/>
+    <item
+        android:id="@+id/hobby"
+        android:icon="@drawable/ic_hobby_24dp"
+        android:title="@string/hobby"/>
+</menu>
